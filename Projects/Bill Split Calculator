@@ -1,0 +1,9 @@
+print("Bill Split Calculator")
+bill_amount = float(input("Enter the Bill Amount: ₹"))                      # Enter the Bill Amount
+tip_percentage = float(input("Enter the tip percentage:"))                  # Enter the tip percent
+tip_amount = (tip_percentage / 100) * bill_amount                           # Calculates tip amount
+total_amount_payable = tip_amount + bill_amount                             # Calculates total amount including tip
+number_of_people_splitting = int(input("Number of people splitting: "))     # Enter number of people contributing to the bill
+amount_per_person = total_amount_payable / number_of_people_splitting       # Calculates amount each person pays 
+print(f"Total (including tip): ₹{total_amount_payable}")
+print(f"Each Person Pays: ₹{amount_per_person}")
