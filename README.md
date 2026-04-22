@@ -24,8 +24,10 @@ Focuses on building a solid foundation in core programming concepts:
 ```bash
 Python
 │
-└── Projects/                 # Hands-on implementation projects
-    └── Basic Calculator      # Simple calculator using Python fundamentals
+└── Projects/                   # Hands-on implementation projects
+    └── Basic Calculator        # Simple calculator using Python fundamentals
+    └── Bill Split Calculator   # Calculates bill, tip amount, splits the bill
+    └── FizzBuzz with a twist   # FizzBuzz game, must try
 ```
 
 ---
