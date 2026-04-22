@@ -1,0 +1,28 @@
+number_1 = float(input("Enter first number: "))   # Enter your first number. 
+operator = input("Enter the Operator: ")        # Enter the operator.
+number_2 = float(input("Enter second number: "))  # Enter your second number.
+Result = None                                   # Returns the result based on operator.
+if operator == "+":
+    Result = number_1 + number_2                # Returns addition.
+elif operator == "-":
+    Result = number_1 - number_2                # Returns substraction
+elif operator == "*":
+    Result = number_1 * number_2                # Returns Multiplication
+elif operator == "/":
+    if number_2 == 0:
+        Result = "Cannot divide by 0"
+    else:   
+        Result = number_1/number_2                  # Returns division
+elif operator == "//":
+    if number_2 == 0:
+        Result = "Cannot divide by 0"
+    else:   
+        Result = number_1 // number_2                # Returns Floor Division (Returns the closed whole number)
+elif operator == "%":
+    if number_2 == 0:
+        Result = "Cannot divide by 0"
+    else:   
+        Result = number_1 % number_2                 # Returns Modulus (Returns remainder after division)
+else:
+    Result = "Invalid Operator"
+print(f"First Number {operator} Second Number = Result \n{number_1} {operator} {number_2} = {Result}")
