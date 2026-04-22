@@ -1,3 +1,4 @@
+print("Basic Calculator")
 number_1 = float(input("Enter first number: "))   # Enter your first number. 
 operator = input("Enter the Operator: ")        # Enter the operator.
 number_2 = float(input("Enter second number: "))  # Enter your second number.
